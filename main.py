@@ -1,4 +1,5 @@
 
+
 import exercici1_A as Retriever
 import exercici2_A as List
 
@@ -22,4 +23,11 @@ print(List.Fruits.values())
 #Pop out the last item
 print( "Popped item : " + str(List.Fruits.popitem()))
 
+
+
+import exercici1_B
+exercici1_B.edat(anyNeixement)
+anyNeixement = int(input("Escriu el teu any de neixement"))
+
+print(exercici1_B.edat(anyNeixement))
 
